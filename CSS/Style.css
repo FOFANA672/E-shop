@@ -32,3 +32,16 @@ img{
 .navbar-brand:hover {
   color: darkgoldenrod; /* Couleur jaune foncé au survol */
 }
+#carouselExample {
+  max-width: 500px; /* Augmente la largeur maximale à 500px */
+  margin: 0 auto; /* Centre le carousel horizontalement */
+  border: 2px solid #ccc; /* Ajoute une bordure grise */
+  border-radius: 10px; /* Arrondit les coins */
+  overflow: hidden; /* Cache les débordements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre pour un effet élégant */
+}
+
+#carouselExample .carousel-inner img {
+  width: 100%; /* Les images prennent toute la largeur du carousel */
+  height: auto; /* Maintient le ratio d'aspect des images */
+}
