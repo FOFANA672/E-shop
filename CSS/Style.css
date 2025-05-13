@@ -1,0 +1,34 @@
+.produit{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+img{
+    width: 100px;
+}
+#navbar-example2 {
+  background-color: blue; /* Arrière-plan bleu */
+}
+
+#navbar-example2 .nav-link {
+  color: white; /* Couleur des liens en blanc */
+  text-decoration: none; /* Supprime le soulignement par défaut */
+}
+
+#navbar-example2 .nav-link:hover {
+  color: darkgoldenrod; /* Couleur jaune foncé au survol */
+  text-decoration: underline; /* Ajoute un soulignement au survol */
+}
+
+.navbar-brand {
+  color: white; /* Couleur du texte de la marque en blanc */
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: darkgoldenrod; /* Couleur jaune foncé au survol */
+}
